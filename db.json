@@ -1,28 +1,30 @@
-[
-    {
-        "name": "squirtle",
-        "order": 10,
-        "species": {
+{
+    "pokemons": [
+        {
             "name": "squirtle",
-            "url": "https://pokeapi.co/api/v2/pokemon-species/7/"
+            "order": 10,
+            "species": {
+                "name": "squirtle",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/7/"
+            },
+            "sprites": {
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
+                "back_female": null
+            },
+            "weight": 90
         },
-        "sprites": {
-            "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
-            "back_female": null
-        },
-        "weight": 90
-    },
-    {
-        "name": "charmander",
-        "order": 5,
-        "species": {
+        {
             "name": "charmander",
-            "url": "https://pokeapi.co/api/v2/pokemon-species/4/"
-        },
-        "sprites": {
-            "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
-            "back_female": null
-        },
-        "weight": 90
-    }
-]
+            "order": 5,
+            "species": {
+                "name": "charmander",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/4/"
+            },
+            "sprites": {
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
+                "back_female": null
+            },
+            "weight": 90
+        }
+    ]
+}
